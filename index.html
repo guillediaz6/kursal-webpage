@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kursal - Professional Web</title>
+    <meta name="description" content="Kursal professional web platform.">
+    <!-- Google Fonts for modern typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="assets/images/logokursal.png" alt="Kursal Logo">
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li><a href="#" class="nav-link">Servicios</a></li>
+                    <li><a href="empresa.html" class="nav-link">Empresa</a></li>
+                    <li><a href="#" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sub Header with Search -->
+    <div class="sub-header">
+        <div class="container">
+            <div class="search-wrapper">
+                <button class="menu-toggle-btn" aria-label="Abrir marcas" id="openDrawerBtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                </button>
+                <form class="search-form" id="home-search-form" action="catalogo.html" method="GET">
+                    <input type="text" name="q" class="search-input" placeholder="Buscar productos por nombre, referencia, modelo..." aria-label="Buscar">
+                    <button type="submit" class="search-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                        <span class="search-btn-text">Buscar</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content Body (White as requested) -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Contenido principal irá aquí -->
+            <section class="showcase-section">
+                <div class="showcase-grid">
+                    <div class="showcase-item">
+                        <img src="assets/images/ehox.png" alt="Ehox">
+                    </div>
+                    <div class="showcase-item">
+                        <img src="assets/images/evo.png" alt="Evo">
+                    </div>
+                    <div class="showcase-item">
+                        <img src="assets/images/exo.png" alt="Exo">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección de Video Promocional -->
+            <section class="video-section">
+                <div class="video-container">
+                    <video id="mainVideo" controls class="promo-video">
+                        <source src="" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                    <div class="video-overlay" id="videoOverlay">
+                        <div class="play-btn-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+                        </div>
+                        <span class="video-overlay-text">Video Corporativo de Presentación</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección Resumen Empresa -->
+            <section class="company-summary-section">
+                <div class="summary-header">
+                    <h2>Kursal Sistemas</h2>
+                    <p>Especialistas en sistemas de seguridad, protección contra incendios y asistencia técnica profesional.</p>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                        </div>
+                        <h2>Productos</h2>
+                        <p>Te ayudamos y buscamos la mejor opción.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                        </div>
+                        <h2>Presupuestos</h2>
+                        <p>La solución perfecta, con su justo valor.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                        </div>
+                        <h2>Asistencias</h2>
+                        <p>Personal técnico a tu disposición.</p>
+                    </div>
+                </div>
+                
+                <div class="summary-footer">
+                    <a href="empresa.html" class="btn-more-info">Saber más sobre nosotros</a>
+                </div>
+            </section>
+
+            <!-- Hub de Catálogos -->
+            <section class="catalog-hub-section">
+                <div class="summary-header">
+                    <h2>Nuestros Catálogos</h2>
+                    <p>Explora nuestra extensa gama de productos y sistemas de seguridad.</p>
+                </div>
+                
+                <div class="catalog-grid">
+                    <div class="catalog-card">
+                        <div class="catalog-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4"></path><polyline points="14 2 14 8 20 8"></polyline><path d="M2 15h10"></path><path d="M9 18l3-3-3-3"></path></svg>
+                        </div>
+                        <div class="catalog-content">
+                            <h3>Extinción Mecánica</h3>
+                            <p>Catálogo completo de sistemas BIE, armarios, mangueras y componentes de extinción mecánica.</p>
+                            <a href="catalogo.html" class="btn-catalog">Acceder al catálogo <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                        </div>
+                    </div>
+                    <!-- Se pueden añadir más catálogos aquí en el futuro -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3>Sobre Nosotros</h3>
+                <p>Kursal es una plataforma profesional dedicada a brindar soluciones de alta calidad.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Soporte</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contacto</h3>
+                <p>Email: info@kursal.com</p>
+                <p>Teléfono: +123 456 7890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Kursal. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Sidebar Drawer (Menú) -->
+    <div class="sidebar-drawer" id="brandsDrawer">
+        <div class="drawer-overlay"></div>
+        <div class="drawer-content">
+            <div class="drawer-header">
+                <h3>Menú</h3>
+                <button class="drawer-close-btn" aria-label="Cerrar menú" id="closeDrawerBtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
+            </div>
+            <div class="drawer-body">
+                <div class="drawer-links-group">
+                    <a href="https://ehox.es/" target="_blank" rel="noopener" class="drawer-link-card">
+                        <h4>Ehox</h4>
+                        <svg class="link-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                    
+                    <a href="https://www.exofiretech.es/" target="_blank" rel="noopener" class="drawer-link-card">
+                        <h4>Exo</h4>
+                        <svg class="link-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>

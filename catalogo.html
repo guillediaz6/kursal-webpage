@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Kursal</title>
+    <meta name="description" content="Catálogo completo de productos de Kursal Sistemas.">
+    <!-- Google Fonts for modern typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="assets/images/logokursal.png" alt="Kursal Logo">
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li><a href="#" class="nav-link active">Catálogo</a></li>
+                    <li><a href="empresa.html" class="nav-link">Empresa</a></li>
+                    <li><a href="#" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sub Header with Search -->
+    <div class="sub-header">
+        <div class="container">
+            <div class="search-wrapper">
+                <button class="menu-toggle-btn" aria-label="Abrir marcas" id="openDrawerBtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                </button>
+                <form class="search-form" id="catalog-search-form" action="#" method="GET" onsubmit="return false;">
+                    <input type="text" class="search-input" id="catalog-search-input" placeholder="Buscar productos por nombre, referencia, modelo..." aria-label="Buscar" autocomplete="off">
+                    <button type="submit" class="search-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                        <span class="search-btn-text">Buscar</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content Body -->
+    <main class="main-content catalog-page">
+        <div class="container catalog-container">
+            
+            <!-- Sidebar / Filtros -->
+            <aside class="catalog-sidebar">
+                <div class="sidebar-header">
+                    <h2>Filtros</h2>
+                </div>
+                <div class="sidebar-filters">
+                    <h3>Subcategorías</h3>
+                    <ul id="subcategory-filter-list">
+                        <li>Cargando filtros...</li>
+                    </ul>
+                </div>
+            </aside>
+
+            <!-- Cuadrícula de Productos y Paginación -->
+            <div class="catalog-main">
+                <div class="catalog-header-bar">
+                    <h2 id="catalog-title">Catálogo: Extinción Mecánica</h2>
+                    <span id="product-count" class="product-count">0 productos</span>
+                </div>
+                
+                <div id="catalog-products-grid" class="catalog-products-grid">
+                    <div class="loading-spinner">Cargando productos...</div>
+                </div>
+
+                <!-- Controles de Paginación -->
+                <div class="pagination-controls" id="pagination-controls">
+                    <button id="prev-page" class="btn-page" disabled>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg> Anterior
+                    </button>
+                    <span id="page-info" class="page-info">Página 1 de 1</span>
+                    <button id="next-page" class="btn-page" disabled>
+                        Siguiente <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3>Sobre Nosotros</h3>
+                <p>Kursal es una plataforma profesional dedicada a brindar soluciones de alta calidad.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Soporte</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contacto</h3>
+                <p>Email: info@kursal.com</p>
+                <p>Teléfono: +123 456 7890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Kursal. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Sidebar Drawer (Menú) -->
+    <div class="sidebar-drawer" id="brandsDrawer">
+        <div class="drawer-overlay"></div>
+        <div class="drawer-content">
+            <div class="drawer-header">
+                <h3>Menú</h3>
+                <button class="drawer-close-btn" aria-label="Cerrar menú" id="closeDrawerBtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
+            </div>
+            <div class="drawer-body">
+                <div class="drawer-links-group">
+                    <a href="https://ehox.es/" target="_blank" rel="noopener" class="drawer-link-card">
+                        <h4>Ehox</h4>
+                        <svg class="link-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                    
+                    <a href="https://www.exofiretech.es/" target="_blank" rel="noopener" class="drawer-link-card">
+                        <h4>Exo</h4>
+                        <svg class="link-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Details Modal -->
+    <div id="product-modal" class="product-modal">
+        <div class="product-modal-content">
+            <span class="product-modal-close" id="product-modal-close">&times;</span>
+            <div class="product-modal-grid">
+                <div class="product-modal-image-col">
+                    <div id="product-modal-image-container"></div>
+                </div>
+                <div class="product-modal-info-col">
+                    <span class="product-modal-ref" id="product-modal-ref"></span>
+                    <h3 class="product-modal-title" id="product-modal-title"></h3>
+                    
+                    <div class="product-modal-divider" id="product-modal-divider" style="display: none;"></div>
+                    
+                    <div class="product-modal-desc-scroll">
+                        <ul class="product-modal-features" id="product-modal-features"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js" defer></script>
+    <script src="js/productos_data.js" defer></script>
+    <script src="js/catalogo.js" defer></script>
+</body>
+</html>
