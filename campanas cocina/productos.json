@@ -1,0 +1,316 @@
+[
+  {
+    "id": 1,
+    "categoriaPrincipal": "Extinción Campanas de Cocina",
+    "categoria": "Sistemas de extinción en campanas",
+    "subcategoria": "Sistemas de extinción en campanas",
+    "referencia": "22004014",
+    "producto": "Kit Extinción Campana Cil 9L KIZENITH FIRETUBE",
+    "modelo": "22004014",
+    "descripcion": "Sistema de extinción en campana formado por:",
+    "norma": "Certificado ETI, conforme a RIPCI, RD. 513/2017. Ensayos normalizados conforme a UNE 23510 de obligado cumplimiento.",
+    "caracteristicas": {
+      "Especificación 1": "Cilindro 9 l. de 75F, marcado CE conforme a Directiva de Equipos a Presión 2014/68/UE.",
+      "Especificación 2": "Válvula de disparo Firetube con doble llave para presurizado de línea de cable sensor térmico de detección Firetube y despresurizado rápido en operaciones de mantenimiento, recarga y retimbre botella a los 5 años.",
+      "Especificación 3": "3 boquillas difusoras cónicas Ø25 mm de anillo desplegable, caudal regulado, con cobertura de Ø1,40 m, homologadas.",
+      "Especificación 4": "Cable sensor térmico detección Firetube 6 m (tarado a 141 ºC).",
+      "Especificación 5": "Pulsador manual disparo final de línea.",
+      "Especificación 6": "Señal extinción Kizenith.",
+      "Especificación 7": "Soporte de sujeción 12/180.",
+      "Especificación 8": "Certificado ETI, conforme a RIPCI, RD. 513/2017. Ensayos normalizados conforme a UNE 23510 de obligado cumplimiento.",
+      "Especificación 9": "Con presostato incluido."
+    },
+    "imagen": "campanas cocina/imagenes campanas cocina/22004014.webp",
+    "imagenes": [
+      "campanas cocina/imagenes campanas cocina/22004014.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 2,
+    "categoriaPrincipal": "Extinción Campanas de Cocina",
+    "categoria": "Sistemas de extinción en campanas",
+    "subcategoria": "Sistemas de extinción en campanas",
+    "referencia": "22004026",
+    "producto": "Kit Extinción Campana Cil 25L KIZENITH FIRETUBE",
+    "modelo": "22004026",
+    "descripcion": "Sistema de extinción en campana formado por:",
+    "norma": "Certificado ETI, conforme a RIPCI, RD. 513/2017. Ensayos normalizados conforme a UNE 23510 de obligado cumplimiento.",
+    "caracteristicas": {
+      "Especificación 1": "Cilindro 25 l. de 75F, marcado CE conforme a Directiva de Equipos a Presión 2014/68/UE.",
+      "Especificación 2": "Válvula de disparo Firetube con doble llave para presurizado de línea de cable sensor térmico de detección Firetube y despresurizado rápido en operaciones de mantenimiento, recarga y retimbre botella a los 5 años.",
+      "Especificación 3": "11 boquillas difusoras cónicas Ø25 mm de anillo desplegable, caudal regulado, con cobertura de Ø1,40 m, homologadas.",
+      "Especificación 4": "Cable sensor térmico detección Firetube 15 m (tarado a 141 ºC).",
+      "Especificación 5": "Pulsador manual disparo final de línea.",
+      "Especificación 6": "Señal extinción Kizenith.",
+      "Especificación 7": "Soporte de sujeción 12/180.",
+      "Especificación 8": "Certificado ETI, conforme a RIPCI, RD. 513/2017. Ensayos normalizados conforme a UNE 23510 de obligado cumplimiento.",
+      "Especificación 9": "Con presostato incluido."
+    },
+    "imagen": "campanas cocina/imagenes campanas cocina/22004026.webp",
+    "imagenes": [
+      "campanas cocina/imagenes campanas cocina/22004026.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 3,
+    "categoriaPrincipal": "Extinción Campanas de Cocina",
+    "categoria": "Herramientas y consumibles",
+    "subcategoria": "Herramientas y consumibles",
+    "referencia": "51001001",
+    "producto": "Herramienta para presurización sistema KIZENITH",
+    "modelo": "51001001",
+    "descripcion": "Herramienta para presurizado de botella de 9L o 25L una vez desinstalada en operaciones de mantenimiento.",
+    "norma": "",
+    "caracteristicas": {},
+    "imagen": "",
+    "imagenes": [],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 4,
+    "categoriaPrincipal": "Extinción Campanas de Cocina",
+    "categoria": "Herramientas y consumibles",
+    "subcategoria": "Herramientas y consumibles",
+    "referencia": "22004027",
+    "producto": "Metro de tubo sensor FIRETUBE",
+    "modelo": "22004027",
+    "descripcion": "Ml. tubo sensor cable de detección térmico tarado a 141 ºC. (€/metro lineal adicional).",
+    "norma": "",
+    "caracteristicas": {},
+    "imagen": "campanas cocina/imagenes campanas cocina/22004027.webp",
+    "imagenes": [
+      "campanas cocina/imagenes campanas cocina/22004027.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 5,
+    "categoriaPrincipal": "Extinción Campanas de Cocina",
+    "categoria": "Herramientas y consumibles",
+    "subcategoria": "Herramientas y consumibles",
+    "referencia": "53011097",
+    "producto": "Difusor Aluminio Cónico estándar KIZENITH",
+    "modelo": "53011097",
+    "descripcion": "Difusor de aluminio cónico homologado para Sistema Kizenith Firetube.",
+    "norma": "",
+    "caracteristicas": {
+      "Especificación 1": "Diámetro 25 mm y superficie de cobertura de Ø 1,40 m.",
+      "Especificación 2": "Para uso con tubería de acero inoxidable."
+    },
+    "imagen": "campanas cocina/imagenes campanas cocina/53011097.webp",
+    "imagenes": [
+      "campanas cocina/imagenes campanas cocina/53011097.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 6,
+    "categoriaPrincipal": "Extinción Campanas de Cocina",
+    "categoria": "Herramientas y consumibles",
+    "subcategoria": "Herramientas y consumibles",
+    "referencia": "51016017",
+    "producto": "Agente Extintor sistema KIZENITH",
+    "modelo": "51016017",
+    "descripcion": "Espumógeno de última generación para extinción especial de aceites clase F certificado.",
+    "norma": "",
+    "caracteristicas": {
+      "Especificación 1": "Solución acuosa diseñada especialmente para su uso en extinción en cocinas industriales.",
+      "Especificación 2": "Formulada especialmente para aumentar la compatibilidad entre agente y aceite.",
+      "Especificación 3": "Gran capacidad de enfriamiento con propiedades tensoactivas que disminuyen rápidamente la temperatura de ignición.",
+      "Especificación 4": "Fácil limpieza."
+    },
+    "imagen": "campanas cocina/imagenes campanas cocina/51016017.webp",
+    "imagenes": [
+      "campanas cocina/imagenes campanas cocina/51016017.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 7,
+    "categoriaPrincipal": "Extinción Campanas de Cocina",
+    "categoria": "Tubería inoxidable",
+    "subcategoria": "Tubería inoxidable",
+    "referencia": "102015X06",
+    "producto": "Tubería inoxpress AISI 304 según EN 10312",
+    "modelo": "102015X06",
+    "descripcion": "Tubería inoxpress AISI 304 según EN 10312.",
+    "norma": "",
+    "caracteristicas": {},
+    "imagen": "campanas cocina/imagenes campanas cocina/102015X06.webp",
+    "imagenes": [
+      "campanas cocina/imagenes campanas cocina/102015X06.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 8,
+    "categoriaPrincipal": "Extinción Campanas de Cocina",
+    "categoria": "Accesorios inoxpress",
+    "subcategoria": "Accesorios inoxpress",
+    "referencia": "40AP1015",
+    "producto": "Abrazadera Press inoxpress",
+    "modelo": "40AP1015",
+    "descripcion": "Abrazadera Press inoxpress.",
+    "norma": "",
+    "caracteristicas": {},
+    "imagen": "campanas cocina/imagenes campanas cocina/40AP1015.webp",
+    "imagenes": [
+      "campanas cocina/imagenes campanas cocina/40AP1015.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 9,
+    "categoriaPrincipal": "Extinción Campanas de Cocina",
+    "categoria": "Accesorios inoxpress",
+    "subcategoria": "Accesorios inoxpress",
+    "referencia": "20C90HH015",
+    "producto": "Curva inoxpress 90º HH 15",
+    "modelo": "20C90HH015",
+    "descripcion": "Curva inoxpress 90º HH 15.",
+    "norma": "",
+    "caracteristicas": {},
+    "imagen": "campanas cocina/imagenes campanas cocina/20C90HH015.webp",
+    "imagenes": [
+      "campanas cocina/imagenes campanas cocina/20C90HH015.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 10,
+    "categoriaPrincipal": "Extinción Campanas de Cocina",
+    "categoria": "Accesorios inoxpress",
+    "subcategoria": "Accesorios inoxpress",
+    "referencia": "20C45HH015",
+    "producto": "Curva inoxpress 45º HH 15",
+    "modelo": "20C45HH015",
+    "descripcion": "Curva inoxpress 45º HH 15.",
+    "norma": "",
+    "caracteristicas": {},
+    "imagen": "campanas cocina/imagenes campanas cocina/20C45HH015.webp",
+    "imagenes": [
+      "campanas cocina/imagenes campanas cocina/20C45HH015.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 11,
+    "categoriaPrincipal": "Extinción Campanas de Cocina",
+    "categoria": "Accesorios inoxpress",
+    "subcategoria": "Accesorios inoxpress",
+    "referencia": "20T015",
+    "producto": "Te igual inoxpress HH 15",
+    "modelo": "20T015",
+    "descripcion": "Te igual inoxpress HH 15.",
+    "norma": "",
+    "caracteristicas": {},
+    "imagen": "campanas cocina/imagenes campanas cocina/20T015.webp",
+    "imagenes": [
+      "campanas cocina/imagenes campanas cocina/20T015.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 12,
+    "categoriaPrincipal": "Extinción Campanas de Cocina",
+    "categoria": "Accesorios inoxpress",
+    "subcategoria": "Accesorios inoxpress",
+    "referencia": "20M015",
+    "producto": "Manguito inoxpress HH 15",
+    "modelo": "20M015",
+    "descripcion": "Manguito inoxpress HH 15.",
+    "norma": "",
+    "caracteristicas": {},
+    "imagen": "campanas cocina/imagenes campanas cocina/20M015.webp",
+    "imagenes": [
+      "campanas cocina/imagenes campanas cocina/20M015.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 13,
+    "categoriaPrincipal": "Extinción Campanas de Cocina",
+    "categoria": "Accesorios inoxpress",
+    "subcategoria": "Accesorios inoxpress",
+    "referencia": "20TH015015",
+    "producto": "Te roscada inoxpress 15 - 1/2\" - 15",
+    "modelo": "20TH015015",
+    "descripcion": "Te roscada inoxpress 15 - 1/2\" - 15.",
+    "norma": "",
+    "caracteristicas": {},
+    "imagen": "campanas cocina/imagenes campanas cocina/20TH015015.webp",
+    "imagenes": [
+      "campanas cocina/imagenes campanas cocina/20TH015015.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 14,
+    "categoriaPrincipal": "Extinción Campanas de Cocina",
+    "categoria": "Accesorios inoxpress",
+    "subcategoria": "Accesorios inoxpress",
+    "referencia": "20CH015015",
+    "producto": "Codo Hembra inoxpress 15 - 1/2\"",
+    "modelo": "20CH015015",
+    "descripcion": "Codo Hembra inoxpress 15 - 1/2\".",
+    "norma": "",
+    "caracteristicas": {},
+    "imagen": "campanas cocina/imagenes campanas cocina/20CH015015.webp",
+    "imagenes": [
+      "campanas cocina/imagenes campanas cocina/20CH015015.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 15,
+    "categoriaPrincipal": "Extinción Campanas de Cocina",
+    "categoria": "Accesorios inoxpress",
+    "subcategoria": "Accesorios inoxpress",
+    "referencia": "20R2P015015",
+    "producto": "Racor 2 piezas inoxpress 15 - 1/2\"",
+    "modelo": "20R2P015015",
+    "descripcion": "Racor 2 piezas inoxpress 15 - 1/2\".",
+    "norma": "",
+    "caracteristicas": {},
+    "imagen": "campanas cocina/imagenes campanas cocina/20R2P015015.webp",
+    "imagenes": [
+      "campanas cocina/imagenes campanas cocina/20R2P015015.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 16,
+    "categoriaPrincipal": "Extinción Campanas de Cocina",
+    "categoria": "Accesorios inoxpress",
+    "subcategoria": "Accesorios inoxpress",
+    "referencia": "20TA015",
+    "producto": "Tapón inoxpress 15",
+    "modelo": "20TA015",
+    "descripcion": "Tapón inoxpress 15.",
+    "norma": "",
+    "caracteristicas": {},
+    "imagen": "campanas cocina/imagenes campanas cocina/20TA015.webp",
+    "imagenes": [
+      "campanas cocina/imagenes campanas cocina/20TA015.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  }
+]

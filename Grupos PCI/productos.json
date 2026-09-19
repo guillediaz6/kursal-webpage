@@ -1,0 +1,320 @@
+[
+  {
+    "id": 1,
+    "categoriaPrincipal": "Grupos PCI",
+    "categoria": "Línea Residencial",
+    "subcategoria": "Serie COMPACFIRE",
+    "referencia": "COMPACFIRE",
+    "producto": "Serie COMPACFIRE",
+    "modelo": "COMPACFIRE",
+    "descripcion": "Equipos contra incendios con 1 bomba monobloc en AISI 304. Abastecimiento sencillo para BIE.",
+    "norma": "UNE 23500:2021",
+    "caracteristicas": {
+      "Bomba": "1 bomba monobloc en AISI 304",
+      "Norma": "UNE 23500:2021",
+      "Aplicación": "Abastecimiento sencillo para BIE"
+    },
+    "imagen": "Grupos PCI/imagenes/1.webp",
+    "imagenes": [
+      "Grupos PCI/imagenes/1.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 2,
+    "categoriaPrincipal": "Grupos PCI",
+    "categoria": "Línea Residencial",
+    "subcategoria": "Serie AQUAFIRE",
+    "referencia": "AQUAFIRE",
+    "producto": "Serie AQUAFIRE",
+    "modelo": "AQUAFIRE",
+    "descripcion": "Equipos contra incendios con 1 bomba en AISI 304 (3M) o hierro fundido (MD). Abastecimiento sencillo para BIE.",
+    "norma": "UNE 23500:2021",
+    "caracteristicas": {
+      "Bomba": "1 bomba en AISI 304 (3M) o hierro fundido (MD)",
+      "Norma": "UNE 23500:2021",
+      "Aplicación": "Abastecimiento sencillo para BIE"
+    },
+    "imagen": "Grupos PCI/imagenes/2.webp",
+    "imagenes": [
+      "Grupos PCI/imagenes/2.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 3,
+    "categoriaPrincipal": "Grupos PCI",
+    "categoria": "Línea Residencial",
+    "subcategoria": "Serie AFU21 MT DJ",
+    "referencia": "AFU21 MT DJ",
+    "producto": "Serie AFU21 MT DJ",
+    "modelo": "AFU21 MT DJ",
+    "descripcion": "Equipos contra incendios con motobomba principal diésel. Abastecimiento sencillo para BIE.",
+    "norma": "UNE 23500:2021",
+    "caracteristicas": {
+      "Motor": "Motobomba principal diésel",
+      "Norma": "UNE 23500:2021",
+      "Aplicación": "Abastecimiento sencillo para BIE"
+    },
+    "imagen": "Grupos PCI/imagenes/3.webp",
+    "imagenes": [
+      "Grupos PCI/imagenes/3.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 4,
+    "categoriaPrincipal": "Grupos PCI",
+    "categoria": "Línea Residencial",
+    "subcategoria": "Serie AFU21 EVMSG",
+    "referencia": "AFU21 EVMSG",
+    "producto": "Serie AFU21 EVMSG",
+    "modelo": "AFU21 EVMSG",
+    "descripcion": "Equipos contra incendios con 1 o 2 bombas verticales. Abastecimiento sencillo para BIE.",
+    "norma": "UNE 23500:2021",
+    "caracteristicas": {
+      "Bombas": "1 o 2 bombas verticales",
+      "Norma": "UNE 23500:2021",
+      "Aplicación": "Abastecimiento sencillo para BIE"
+    },
+    "imagen": "Grupos PCI/imagenes/4.webp",
+    "imagenes": [
+      "Grupos PCI/imagenes/4.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 5,
+    "categoriaPrincipal": "Grupos PCI",
+    "categoria": "Línea Residencial",
+    "subcategoria": "Batería de depósitos para reserva de agua",
+    "referencia": "BAT-DEP-12000",
+    "producto": "Batería de depósitos para reserva de agua",
+    "modelo": "Batería 12.000 L",
+    "descripcion": "Batería de depósitos de reserva de agua para equipos contra incendios, con una capacidad total de 12.000 litros.",
+    "norma": "",
+    "caracteristicas": {
+      "Capacidad total": "12.000 litros",
+      "Uso": "Reserva de agua para equipos contra incendios"
+    },
+    "imagen": "Grupos PCI/imagenes/5.webp",
+    "imagenes": [
+      "Grupos PCI/imagenes/5.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 6,
+    "categoriaPrincipal": "Grupos PCI",
+    "categoria": "Línea Industrial",
+    "subcategoria": "Equipos Estándar y Normalizados",
+    "referencia": "IND-STD-NORM",
+    "producto": "Equipos Contra Incendios Línea Industrial Estándar y Normalizados",
+    "modelo": "Línea Industrial Estándar / Normalizada",
+    "descripcion": "Equipos contra incendios para línea industrial estándar y normalizados.",
+    "norma": "",
+    "caracteristicas": {
+      "Gama": "Línea Industrial Estándar y Normalizados"
+    },
+    "imagen": "Grupos PCI/imagenes/6.webp",
+    "imagenes": [
+      "Grupos PCI/imagenes/6.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 7,
+    "categoriaPrincipal": "Grupos PCI",
+    "categoria": "Línea Industrial",
+    "subcategoria": "FIRE BOX",
+    "referencia": "FIRE BOX",
+    "producto": "FIRE BOX",
+    "modelo": "FIRE BOX",
+    "descripcion": "Equipos contra incendios con cerramiento propio, aptos para instalación en exteriores.",
+    "norma": "",
+    "caracteristicas": {
+      "Instalación": "Aptos para exteriores",
+      "Cerramiento": "Cerramiento propio integrado"
+    },
+    "imagen": "Grupos PCI/imagenes/7.webp",
+    "imagenes": [
+      "Grupos PCI/imagenes/7.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 8,
+    "categoriaPrincipal": "Grupos PCI",
+    "categoria": "Línea Industrial",
+    "subcategoria": "FIRE BOX 24",
+    "referencia": "FIRE BOX 24",
+    "producto": "FIRE BOX 24",
+    "modelo": "FIRE BOX 24",
+    "descripcion": "Equipos contra incendios con cerramiento propio, aptos para instalación en exteriores.",
+    "norma": "",
+    "caracteristicas": {
+      "Instalación": "Aptos para exteriores",
+      "Cerramiento": "Cerramiento propio integrado"
+    },
+    "imagen": "Grupos PCI/imagenes/8.webp",
+    "imagenes": [
+      "Grupos PCI/imagenes/8.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 9,
+    "categoriaPrincipal": "Grupos PCI",
+    "categoria": "Línea Industrial",
+    "subcategoria": "FIRE BOX PORTUGAL",
+    "referencia": "FIRE BOX PORTUGAL",
+    "producto": "FIRE BOX PORTUGAL",
+    "modelo": "FIRE BOX PORTUGAL",
+    "descripcion": "Equipos contra incendios con cerramiento propio, aptos para instalación en exteriores.",
+    "norma": "",
+    "caracteristicas": {
+      "Instalación": "Aptos para exteriores",
+      "Cerramiento": "Cerramiento propio integrado",
+      "Versión": "Portugal"
+    },
+    "imagen": "Grupos PCI/imagenes/9.webp",
+    "imagenes": [
+      "Grupos PCI/imagenes/9.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 10,
+    "categoriaPrincipal": "Grupos PCI",
+    "categoria": "Línea Industrial",
+    "subcategoria": "CONTE FIRE",
+    "referencia": "CONTE FIRE",
+    "producto": "CONTE FIRE",
+    "modelo": "CONTE FIRE",
+    "descripcion": "Sistemas autónomos de protección contra incendios.",
+    "norma": "",
+    "caracteristicas": {
+      "Tipo": "Sistemas autónomos de protección contra incendios",
+      "Estructura": "Contenedor / Módulo autónomo"
+    },
+    "imagen": "Grupos PCI/imagenes/10.webp",
+    "imagenes": [
+      "Grupos PCI/imagenes/10.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 11,
+    "categoriaPrincipal": "Grupos PCI",
+    "categoria": "Línea Industrial",
+    "subcategoria": "FIRE TANK COMPACT",
+    "referencia": "FIRE TANK COMPACT",
+    "producto": "FIRE TANK COMPACT",
+    "modelo": "FIRE TANK COMPACT",
+    "descripcion": "Sistemas completos contra incendios, diseñados para instalar en superficie o soterrados.",
+    "norma": "",
+    "caracteristicas": {
+      "Instalación": "Superficie o soterrados",
+      "Tipo": "Sistemas completos contra incendios con depósito integrado"
+    },
+    "imagen": "Grupos PCI/imagenes/11.webp",
+    "imagenes": [
+      "Grupos PCI/imagenes/11.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 12,
+    "categoriaPrincipal": "Grupos PCI",
+    "categoria": "Línea Industrial",
+    "subcategoria": "Accesorios y Kits",
+    "referencia": "KIT-ASPIRACION",
+    "producto": "Reducciones excéntricas y kits de aspiración",
+    "modelo": "Reducciones excéntricas y kits de aspiración",
+    "descripcion": "Reducciones excéntricas y kits de aspiración completos para equipos contra incendios.",
+    "norma": "",
+    "caracteristicas": {
+      "Tipo": "Kits de aspiración y reducciones excéntricas"
+    },
+    "imagen": "Grupos PCI/imagenes/12.webp",
+    "imagenes": [
+      "Grupos PCI/imagenes/12.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 13,
+    "categoriaPrincipal": "Grupos PCI",
+    "categoria": "Línea Industrial",
+    "subcategoria": "Accesorios y Kits",
+    "referencia": "TELECONTROL-GSM",
+    "producto": "Accesorio para telecontrol GSM",
+    "modelo": "Telecontrol GSM",
+    "descripcion": "Accesorio para telecontrol GSM destinado a equipos contra incendios.",
+    "norma": "",
+    "caracteristicas": {
+      "Conectividad": "Módulo GSM",
+      "Función": "Telecontrol y monitorización remota"
+    },
+    "imagen": "Grupos PCI/imagenes/13.webp",
+    "imagenes": [
+      "Grupos PCI/imagenes/13.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 14,
+    "categoriaPrincipal": "Grupos PCI",
+    "categoria": "Línea Industrial",
+    "subcategoria": "Accesorios y Kits",
+    "referencia": "ACC-PCI",
+    "producto": "Accesorios para equipos contra incendios",
+    "modelo": "Accesorios PCI",
+    "descripcion": "Accesorios complementarios para equipos contra incendios.",
+    "norma": "",
+    "caracteristicas": {
+      "Tipo": "Accesorios y complementos"
+    },
+    "imagen": "Grupos PCI/imagenes/14.webp",
+    "imagenes": [
+      "Grupos PCI/imagenes/14.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  },
+  {
+    "id": 15,
+    "categoriaPrincipal": "Grupos PCI",
+    "categoria": "Depósitos y Caudalímetros PCI",
+    "subcategoria": "Acumuladores hidroneumáticos",
+    "referencia": "ACUM-HIDRO",
+    "producto": "Acumuladores hidroneumáticos",
+    "modelo": "Acumulador hidroneumático galvanizado",
+    "descripcion": "Acumuladores de membrana recambiable, galvanizados, para aspiración de red, entre otras aplicaciones.",
+    "norma": "",
+    "caracteristicas": {
+      "Membrana": "Recambiable",
+      "Acabado": "Galvanizado",
+      "Aplicación": "Aspiración de red y otras aplicaciones"
+    },
+    "imagen": "Grupos PCI/imagenes/15.webp",
+    "imagenes": [
+      "Grupos PCI/imagenes/15.webp"
+    ],
+    "estado": "OK",
+    "observaciones": ""
+  }
+]

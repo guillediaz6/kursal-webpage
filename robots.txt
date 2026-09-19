@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kursalsistemas.com/sitemap.xml
+
+# Bloquear archivos de datos internos que no necesitan indexación
+Disallow: /js/productos_data.js
+Disallow: /productos.json
+Disallow: /extincion mecanica/productos.json
+Disallow: /deteccion/productos.json
+Disallow: /Grupos PCI/productos.json
+Disallow: /campanas cocina/productos.json

@@ -26,26 +26,42 @@ if (openDrawerBtn && closeDrawerBtn && brandsDrawer) {
     }
 }
 
-// Lógica para el video promocional (ocultar overlay al reproducir)
-const videoOverlay = document.getElementById('videoOverlay');
-const mainVideo = document.getElementById('mainVideo');
+// Lógica para videos (reproducción bajo demanda y pausa mutua)
+const videoOverlays = document.querySelectorAll('.video-custom-overlay');
 
-if (videoOverlay && mainVideo) {
-    videoOverlay.addEventListener('click', () => {
-        const source = mainVideo.querySelector('source');
-        // Comprobar si el source tiene un enlace real definido
-        if (source && source.getAttribute('src') && source.getAttribute('src').trim() !== "") {
-            videoOverlay.style.display = 'none';
-            mainVideo.play().catch(err => {
+videoOverlays.forEach(overlay => {
+    const videoId = overlay.getAttribute('data-video-id');
+    const videoEl = document.getElementById(videoId);
+
+    if (videoEl) {
+        // Al hacer clic en la carátula/overlay
+        overlay.addEventListener('click', () => {
+            // Pausar cualquier otro video que esté reproduciéndose
+            document.querySelectorAll('video').forEach(otherVideo => {
+                if (otherVideo !== videoEl) {
+                    otherVideo.pause();
+                }
+            });
+
+            overlay.style.display = 'none';
+            videoEl.play().catch(err => {
                 console.error("Error al reproducir el video:", err);
             });
-        } else {
-            alert("El enlace del video aún no está configurado. Añade la URL del archivo de video en la etiqueta <source src='...'> del index.html.");
-        }
-    });
+        });
 
-    // Ocultar overlay automáticamente si el video es reproducido externamente (controles nativos)
-    mainVideo.addEventListener('play', () => {
-        videoOverlay.style.display = 'none';
-    });
-}
+        // Ocultar carátula si el usuario pulsa play en la barra de controles nativa
+        videoEl.addEventListener('play', () => {
+            overlay.style.display = 'none';
+            document.querySelectorAll('video').forEach(otherVideo => {
+                if (otherVideo !== videoEl) {
+                    otherVideo.pause();
+                }
+            });
+        });
+
+        // Mostrar de nuevo la carátula si el video termina
+        videoEl.addEventListener('ended', () => {
+            overlay.style.display = 'flex';
+        });
+    }
+});

@@ -3,13 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kursal - Professional Web</title>
-    <meta name="description" content="Kursal professional web platform.">
-    <!-- Google Fonts for modern typography -->
+    <title>Kursal Sistemas | Suministros Contra Incendios y Equipos PCI</title>
+    <meta name="description" content="Especialistas en sistemas contra incendios, detección, extinción mecánica, grupos PCI y campanas de cocina. Presupuestos sin compromiso.">
+    <!-- Google Fonts for modern & elegant typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Canonical -->
+    <link rel="canonical" href="https://kursalsistemas.com/">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="assets/images/favicon-192.webp">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Kursal Sistemas | Suministros Contra Incendios y Equipos PCI">
+    <meta property="og:description" content="Especialistas en sistemas contra incendios, detección, extinción mecánica, grupos PCI y campanas de cocina industrial.">
+    <meta property="og:image" content="https://kursalsistemas.com/assets/images/logokursal.webp">
+    <meta property="og:url" content="https://kursalsistemas.com/">
+    <meta property="og:site_name" content="Kursal Sistemas">
+    <meta property="og:locale" content="es_ES">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kursal Sistemas | Suministros Contra Incendios y Equipos PCI">
+    <meta name="twitter:description" content="Especialistas en sistemas contra incendios, detección, extinción mecánica, grupos PCI y campanas de cocina industrial.">
+    <meta name="twitter:image" content="https://kursalsistemas.com/assets/images/logokursal.webp">
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://kursalsistemas.com/#business",
+          "name": "Kursal Sistemas",
+          "description": "Empresa especializada en suministros contra incendios, sistemas de detección, extinción mecánica, grupos PCI, CCTV y control de accesos.",
+          "url": "https://kursalsistemas.com/",
+          "telephone": ["+34673791346", "+34828734573"],
+          "email": "info@kursalsistemas.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "C. Batalla de Brunete, 100",
+            "addressLocality": "Las Palmas de Gran Canaria",
+            "postalCode": "35013",
+            "addressRegion": "Las Palmas",
+            "addressCountry": "ES"
+          },
+          "hasMap": "https://www.google.com/maps/place/C.+Batalla+de+Brunete,+100,+35013+Las+Palmas+de+Gran+Canaria,+Las+Palmas/",
+          "image": "https://kursalsistemas.com/assets/images/logokursal.webp",
+          "logo": "https://kursalsistemas.com/assets/images/logokursal.webp",
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+            "opens": "08:00",
+            "closes": "14:00"
+          },
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Catálogo de Equipos Contra Incendios",
+            "url": "https://kursalsistemas.com/catalogo.html",
+            "numberOfItems": 1037,
+            "itemListElement": [
+              {"@type": "OfferCatalog", "name": "Extinción Mecánica", "url": "https://kursalsistemas.com/catalogo.html?cat=extincion-mecanica"},
+              {"@type": "OfferCatalog", "name": "Grupos PCI", "url": "https://kursalsistemas.com/catalogo.html?cat=grupos-pci"},
+              {"@type": "OfferCatalog", "name": "Detección de Incendios", "url": "https://kursalsistemas.com/catalogo.html?cat=deteccion"},
+              {"@type": "OfferCatalog", "name": "Extinción Campanas de Cocina", "url": "https://kursalsistemas.com/catalogo.html?cat=campanas-cocina"}
+            ]
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://kursalsistemas.com/#website",
+          "name": "Kursal Sistemas",
+          "url": "https://kursalsistemas.com/",
+          "publisher": {"@id": "https://kursalsistemas.com/#business"},
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://kursalsistemas.com/catalogo.html?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://kursalsistemas.com/"}
+          ]
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     
@@ -17,14 +99,14 @@
     <header class="main-header">
         <div class="container header-container">
             <div class="logo">
-                <img src="assets/images/logokursal.png" alt="Kursal Logo">
+                <img src="assets/images/logokursal.webp" alt="Kursal Logo">
             </div>
             <nav class="main-nav">
                 <ul>
                     <li><a href="index.html" class="nav-link">Inicio</a></li>
-                    <li><a href="#" class="nav-link">Servicios</a></li>
+                    <li><a href="catalogo.html" class="nav-link">Catálogo</a></li>
                     <li><a href="empresa.html" class="nav-link">Empresa</a></li>
-                    <li><a href="#" class="nav-link">Contacto</a></li>
+                    <li><a href="contacto.html" class="nav-link">Contacto</a></li>
                 </ul>
             </nav>
         </div>
@@ -52,32 +134,58 @@
     <main class="main-content">
         <div class="container">
             <!-- Contenido principal irá aquí -->
+            <h1 class="sr-only">Suministros Contra Incendios y Sistemas de Seguridad — Kursal Sistemas</h1>
             <section class="showcase-section">
                 <div class="showcase-grid">
                     <div class="showcase-item">
-                        <img src="assets/images/ehox.png" alt="Ehox">
+                        <img src="assets/images/ehox.webp" alt="Ehox" loading="lazy">
                     </div>
                     <div class="showcase-item">
-                        <img src="assets/images/evo.png" alt="Evo">
+                        <img src="assets/images/evo.webp" alt="Evo" loading="lazy">
                     </div>
                     <div class="showcase-item">
-                        <img src="assets/images/exo.png" alt="Exo">
+                        <img src="assets/images/exo.webp" alt="Exo" loading="lazy">
                     </div>
                 </div>
             </section>
 
-            <!-- Sección de Video Promocional -->
-            <section class="video-section">
-                <div class="video-container">
-                    <video id="mainVideo" controls class="promo-video">
-                        <source src="" type="video/mp4">
-                        Tu navegador no soporta el elemento de video.
-                    </video>
-                    <div class="video-overlay" id="videoOverlay">
-                        <div class="play-btn-circle">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+            <!-- Sección de Videos (Optimizados & Gran Formato) -->
+            <section class="videos-section">
+                <!-- Video 1 -->
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <video id="kursalVideo1" controls preload="none" playsinline poster="assets/images/poster_video1.webp">
+                            <source src="assets/video1.mp4" type="video/mp4">
+                            Tu navegador no soporta el elemento de video.
+                        </video>
+                        <div class="video-custom-overlay" id="videoOverlay1" data-video-id="kursalVideo1">
+                            <img src="assets/images/poster_video1.webp" alt="Portada Video 1" class="video-poster-img" loading="lazy">
+                            <div class="video-overlay-gradient"></div>
+                            <div class="video-play-content">
+                                <div class="video-play-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+                                </div>
+                            </div>
                         </div>
-                        <span class="video-overlay-text">Video Corporativo de Presentación</span>
+                    </div>
+                </div>
+
+                <!-- Video 2 -->
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <video id="kursalVideo2" controls preload="none" playsinline poster="assets/images/poster_video2.webp">
+                            <source src="assets/video2.mp4" type="video/mp4">
+                            Tu navegador no soporta el elemento de video.
+                        </video>
+                        <div class="video-custom-overlay" id="videoOverlay2" data-video-id="kursalVideo2">
+                            <img src="assets/images/poster_video2.webp" alt="Portada Video 2" class="video-poster-img" loading="lazy">
+                            <div class="video-overlay-gradient"></div>
+                            <div class="video-play-content">
+                                <div class="video-play-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -92,7 +200,7 @@
                 <div class="features-grid">
                     <div class="feature-card">
                         <div class="feature-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                            <img src="assets/images/producto.webp" alt="Icono Productos" loading="lazy">
                         </div>
                         <h2>Productos</h2>
                         <p>Te ayudamos y buscamos la mejor opción.</p>
@@ -100,7 +208,7 @@
                     
                     <div class="feature-card">
                         <div class="feature-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                            <img src="assets/images/dinero.webp" alt="Icono Presupuestos" loading="lazy">
                         </div>
                         <h2>Presupuestos</h2>
                         <p>La solución perfecta, con su justo valor.</p>
@@ -108,7 +216,7 @@
 
                     <div class="feature-card">
                         <div class="feature-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                            <img src="assets/images/herramienta.webp" alt="Icono Asistencias" loading="lazy">
                         </div>
                         <h2>Asistencias</h2>
                         <p>Personal técnico a tu disposición.</p>
@@ -128,17 +236,77 @@
                 </div>
                 
                 <div class="catalog-grid">
-                    <div class="catalog-card">
-                        <div class="catalog-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4"></path><polyline points="14 2 14 8 20 8"></polyline><path d="M2 15h10"></path><path d="M9 18l3-3-3-3"></path></svg>
+                    <!-- Catálogo 1: Extinción Mecánica -->
+                    <a href="catalogo.html?cat=extincion-mecanica" class="catalog-card-item">
+                        <div class="catalog-image-box">
+                            <img src="assets/images/mecanica.webp" alt="Catálogo Extinción Mecánica" class="catalog-cover-img" loading="lazy">
+                            <div class="catalog-image-overlay"></div>
                         </div>
-                        <div class="catalog-content">
-                            <h3>Extinción Mecánica</h3>
-                            <p>Catálogo completo de sistemas BIE, armarios, mangueras y componentes de extinción mecánica.</p>
-                            <a href="catalogo.html" class="btn-catalog">Acceder al catálogo <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                        <div class="catalog-info-box">
+                            <div class="catalog-header-meta">
+                                <h3>Extinción Mecánica</h3>
+                                <span class="catalog-action-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                                </span>
+                            </div>
+                            <p>Sistemas BIE, armarios, mangueras, racores y componentes avanzados de extinción de incendios.</p>
+                            <span class="btn-catalog-link">Explorar catálogo</span>
                         </div>
-                    </div>
-                    <!-- Se pueden añadir más catálogos aquí en el futuro -->
+                    </a>
+
+                    <!-- Catálogo 2: Grupos PCI -->
+                    <a href="catalogo.html?cat=grupos-pci" class="catalog-card-item">
+                        <div class="catalog-image-box img-zoomed-default">
+                            <img src="assets/images/grupos pci.webp" alt="Catálogo Grupos PCI" class="catalog-cover-img" loading="lazy">
+                            <div class="catalog-image-overlay"></div>
+                        </div>
+                        <div class="catalog-info-box">
+                            <div class="catalog-header-meta">
+                                <h3>Grupos PCI</h3>
+                                <span class="catalog-action-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                                </span>
+                            </div>
+                            <p>Equipos de bombeo contra incendios para línea residencial, industrial, depósitos y grupos de presión Ebara.</p>
+                            <span class="btn-catalog-link">Explorar catálogo</span>
+                        </div>
+                    </a>
+
+                    <!-- Catálogo 3: Detección -->
+                    <a href="catalogo.html?cat=deteccion" class="catalog-card-item">
+                        <div class="catalog-image-box img-zoomed-default">
+                            <img src="assets/images/deteccion.webp" alt="Catálogo Detección" class="catalog-cover-img" loading="lazy">
+                            <div class="catalog-image-overlay"></div>
+                        </div>
+                        <div class="catalog-info-box">
+                            <div class="catalog-header-meta">
+                                <h3>Detección</h3>
+                                <span class="catalog-action-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                                </span>
+                            </div>
+                            <p>Sistemas de detección analógica, convencional, Serie Marina, detección por aspiración, pulsadores y sirenas.</p>
+                            <span class="btn-catalog-link">Explorar catálogo</span>
+                        </div>
+                    </a>
+
+                    <!-- Catálogo 4: Extinción Campanas de Cocina -->
+                    <a href="catalogo.html?cat=campanas-cocina" class="catalog-card-item">
+                        <div class="catalog-image-box img-zoomed-default">
+                            <img src="assets/images/campanas de cocina.webp" alt="Catálogo Extinción Campanas de Cocina" class="catalog-cover-img" loading="lazy">
+                            <div class="catalog-image-overlay"></div>
+                        </div>
+                        <div class="catalog-info-box">
+                            <div class="catalog-header-meta">
+                                <h3>Extinción Campanas</h3>
+                                <span class="catalog-action-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                                </span>
+                            </div>
+                            <p>Sistemas automáticos KIZENITH FIRETUBE para campanas de cocina industrial, difusores, tubería y accesorios inoxpress.</p>
+                            <span class="btn-catalog-link">Explorar catálogo</span>
+                        </div>
+                    </a>
                 </div>
             </section>
         </div>
@@ -147,26 +315,28 @@
     <!-- Footer -->
     <footer class="main-footer">
         <div class="container footer-container">
-            <div class="footer-col">
-                <h3>Sobre Nosotros</h3>
-                <p>Kursal es una plataforma profesional dedicada a brindar soluciones de alta calidad.</p>
+            <div class="footer-col footer-col-logo">
+                <a href="index.html" class="footer-logo-link">
+                    <img src="assets/images/logokursal.webp" alt="Kursal Logo" class="footer-logo-img" loading="lazy">
+                </a>
             </div>
             <div class="footer-col">
-                <h3>Enlaces Rápidos</h3>
+                <h3>Enlaces Legales</h3>
                 <ul>
-                    <li><a href="#">Términos y Condiciones</a></li>
-                    <li><a href="#">Política de Privacidad</a></li>
-                    <li><a href="#">Soporte</a></li>
+                    <li><a href="aviso-legal.html">Aviso Legal</a></li>
+                    <li><a href="privacidad.html">Política de Privacidad</a></li>
+                    <li><a href="cookies.html">Política de Cookies</a></li>
+                    <li><a href="contacto.html">Contacto y Soporte</a></li>
                 </ul>
             </div>
             <div class="footer-col">
-                <h3>Contacto</h3>
-                <p>Email: info@kursal.com</p>
-                <p>Teléfono: +123 456 7890</p>
+                <h3>Contacto Directo</h3>
+                <p>Email: <a href="mailto:info@kursalsistemas.com" style="color: inherit; text-decoration: underline;">info@kursalsistemas.com</a></p>
+                <p>Teléfono: <a href="tel:+34673791346" style="color: inherit; text-decoration: underline;">673 791 346</a> · <a href="tel:+34828734573" style="color: inherit; text-decoration: underline;">828 734 573</a></p>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 Kursal. Todos los derechos reservados.</p>
+            <p>&copy; 2026 Kursal. Todos los derechos reservados. | Realizado por <a href="https://gdmdeveloper.es" target="_blank" rel="noopener noreferrer" class="credit-link">gdm.developer</a></p>
         </div>
     </footer>
 
@@ -181,6 +351,27 @@
                 </button>
             </div>
             <div class="drawer-body">
+                <div class="drawer-section-title" style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.75rem; letter-spacing: 0.05em;">Catálogos</div>
+                <div class="drawer-links-group" style="margin-bottom: 1.5rem;">
+                    <a href="catalogo.html?cat=extincion-mecanica" class="drawer-link-card">
+                        <h4>Extinción Mecánica</h4>
+                        <svg class="link-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                    <a href="catalogo.html?cat=grupos-pci" class="drawer-link-card">
+                        <h4>Grupos PCI</h4>
+                        <svg class="link-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                    <a href="catalogo.html?cat=deteccion" class="drawer-link-card">
+                        <h4>Detección</h4>
+                        <svg class="link-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                    <a href="catalogo.html?cat=campanas-cocina" class="drawer-link-card">
+                        <h4>Extinción Campanas</h4>
+                        <svg class="link-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                </div>
+
+                <div class="drawer-section-title" style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.75rem; letter-spacing: 0.05em;">Marcas</div>
                 <div class="drawer-links-group">
                     <a href="https://ehox.es/" target="_blank" rel="noopener" class="drawer-link-card">
                         <h4>Ehox</h4>
