@@ -65,3 +65,43 @@ videoOverlays.forEach(overlay => {
         });
     }
 });
+
+// Lógica para el Megamenú desplegable de Catálogos en el Header
+const catalogDropdownBtn = document.getElementById('catalogDropdownBtn');
+const headerMegamenu = document.getElementById('headerMegamenu');
+
+if (catalogDropdownBtn && headerMegamenu) {
+    const toggleMegamenu = (forceState) => {
+        const shouldOpen = (typeof forceState === 'boolean') ? forceState : !headerMegamenu.classList.contains('active');
+        headerMegamenu.classList.toggle('active', shouldOpen);
+        catalogDropdownBtn.classList.toggle('active', shouldOpen);
+        catalogDropdownBtn.setAttribute('aria-expanded', shouldOpen ? 'true' : 'false');
+    };
+
+    catalogDropdownBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        toggleMegamenu();
+    });
+
+    // Cerrar al hacer clic fuera del megamenú
+    document.addEventListener('click', (e) => {
+        if (!headerMegamenu.contains(e.target) && !catalogDropdownBtn.contains(e.target)) {
+            toggleMegamenu(false);
+        }
+    });
+
+    // Cerrar con Escape
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && headerMegamenu.classList.contains('active')) {
+            toggleMegamenu(false);
+        }
+    });
+
+    // Cerrar el megamenú al hacer clic en cualquiera de sus enlaces
+    headerMegamenu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            toggleMegamenu(false);
+        });
+    });
+}
+

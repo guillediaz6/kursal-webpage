@@ -87,11 +87,88 @@
             <nav class="main-nav">
                 <ul>
                     <li><a href="index.html" class="nav-link">Inicio</a></li>
-                    <li><a href="catalogo.html" class="nav-link">Catálogo</a></li>
+                    <li class="nav-item-dropdown">
+                        <button type="button" class="nav-link nav-dropdown-btn" id="catalogDropdownBtn" aria-expanded="false" aria-haspopup="true">
+                            <span>Catálogos</span>
+                            <svg class="dropdown-triangle-icon" viewBox="0 0 24 24" width="12" height="12" fill="currentColor">
+                                <polygon points="6 9 18 9 12 17"></polygon>
+                            </svg>
+                        </button>
+                    </li>
                     <li><a href="empresa.html" class="nav-link">Empresa</a></li>
                     <li><a href="contacto.html" class="nav-link active">Contacto</a></li>
                 </ul>
             </nav>
+        </div>
+        <!-- Submenú Desplegable de Catálogos (Mega Menú) -->
+        <div class="header-megamenu" id="headerMegamenu" role="region" aria-label="Catálogos y subcategorías">
+            <div class="container megamenu-container">
+                <!-- Columna 1: Extinción Mecánica -->
+                <div class="megamenu-column">
+                    <a href="catalogo.html?cat=extincion-mecanica" class="megamenu-cat-title">
+                        <span class="cat-title-text">Extinción Mecánica</span>
+                        <span class="megamenu-count">713</span>
+                    </a>
+                    <ul class="megamenu-sublist">
+                        <li><a href="catalogo.html?cat=extincion-mecanica&filtro=BIEs+(Bocas+de+Incendio)">BIEs (Bocas de Incendio)</a></li>
+                        <li><a href="catalogo.html?cat=extincion-mecanica&filtro=Armarios+y+Mobiliario">Armarios y Mobiliario</a></li>
+                        <li><a href="catalogo.html?cat=extincion-mecanica&filtro=Mangueras+y+Lanzas">Mangueras y Lanzas</a></li>
+                        <li><a href="catalogo.html?cat=extincion-mecanica&filtro=Racores+de+Conexi%C3%B3n">Racores de Conexión</a></li>
+                        <li><a href="catalogo.html?cat=extincion-mecanica&filtro=Columna+Seca">Columna Seca</a></li>
+                        <li><a href="catalogo.html?cat=extincion-mecanica&filtro=Hidrantes+y+Casetas">Hidrantes y Casetas</a></li>
+                        <li><a href="catalogo.html?cat=extincion-mecanica&filtro=V%C3%A1lvulas">Válvulas</a></li>
+                        <li><a href="catalogo.html?cat=extincion-mecanica&filtro=Accesorios">Accesorios</a></li>
+                    </ul>
+                </div>
+
+                <!-- Columna 2: Grupos PCI -->
+                <div class="megamenu-column">
+                    <a href="catalogo.html?cat=grupos-pci" class="megamenu-cat-title">
+                        <span class="cat-title-text">Grupos PCI</span>
+                        <span class="megamenu-count">15</span>
+                    </a>
+                    <ul class="megamenu-sublist">
+                        <li><a href="catalogo.html?cat=grupos-pci&filtro=L%C3%ADnea+Residencial">Línea Residencial</a></li>
+                        <li><a href="catalogo.html?cat=grupos-pci&filtro=L%C3%ADnea+Industrial">Línea Industrial</a></li>
+                        <li><a href="catalogo.html?cat=grupos-pci&filtro=Dep%C3%B3sitos+y+Caudal%C3%ADmetros+PCI">Depósitos y Caudalímetros</a></li>
+                        <li><a href="https://ebaragci.imventa.com?culture=es" target="_blank" rel="noopener" class="megamenu-special-link">Configurador Ebara ↗</a></li>
+                    </ul>
+                </div>
+
+                <!-- Columna 3: Detección -->
+                <div class="megamenu-column">
+                    <a href="catalogo.html?cat=deteccion" class="megamenu-cat-title">
+                        <span class="cat-title-text">Detección</span>
+                        <span class="megamenu-count">293</span>
+                    </a>
+                    <ul class="megamenu-sublist">
+                        <li><a href="catalogo.html?cat=deteccion&filtro=Detecci%C3%B3n+Convencional">Detección Convencional</a></li>
+                        <li><a href="catalogo.html?cat=deteccion&filtro=Detecci%C3%B3n+Jade+Bird">Detección Jade Bird</a></li>
+                        <li><a href="catalogo.html?cat=deteccion&filtro=Detecci%C3%B3n+por+Aspiraci%C3%B3n">Detección por Aspiración</a></li>
+                        <li><a href="catalogo.html?cat=deteccion&filtro=Serie+Marina">Serie Marina</a></li>
+                    </ul>
+                </div>
+
+                <!-- Columna 4: Extinción Campanas -->
+                <div class="megamenu-column">
+                    <a href="catalogo.html?cat=campanas-cocina" class="megamenu-cat-title">
+                        <span class="cat-title-text">Extinción Campanas</span>
+                        <span class="megamenu-count">16</span>
+                    </a>
+                    <ul class="megamenu-sublist">
+                        <li><a href="catalogo.html?cat=campanas-cocina&filtro=Sistemas+de+extinci%C3%B3n+en+campanas">Sistemas en Campanas</a></li>
+                        <li><a href="catalogo.html?cat=campanas-cocina&filtro=Accesorios+inoxpress">Accesorios Inoxpress</a></li>
+                        <li><a href="catalogo.html?cat=campanas-cocina&filtro=Tuber%C3%ADa+inoxidable">Tubería Inoxidable</a></li>
+                        <li><a href="catalogo.html?cat=campanas-cocina&filtro=Herramientas+y+consumibles">Herramientas y Consumibles</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="megamenu-footer-bar">
+                <div class="container megamenu-footer-inner">
+                    <span class="megamenu-footer-text">Catálogo profesional con más de <strong>1.000 productos</strong> especializados</span>
+                    <a href="contacto.html" class="megamenu-footer-cta">Solicitar presupuesto o asesoramiento técnico →</a>
+                </div>
+            </div>
         </div>
     </header>
 

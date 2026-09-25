@@ -210,11 +210,14 @@ document.addEventListener('DOMContentLoaded', () => {
             ebaraBanner.style.display = currentPrincipal === "Grupos PCI" ? "flex" : "none";
         }
         
-        // Comprobar si hay un parámetro de búsqueda en la URL (?q=...)
+        // Comprobar si hay un parámetro de búsqueda o de filtro en la URL (?q=..., ?filtro=...)
         const queryFromUrl = urlParams.get('q');
+        const filtroFromUrl = urlParams.get('filtro') || urlParams.get('sub');
         if (queryFromUrl && queryFromUrl.trim() !== "") {
             if (dom.searchInput) dom.searchInput.value = queryFromUrl;
             executeSearch(queryFromUrl);
+        } else if (filtroFromUrl && filtroFromUrl.trim() !== "") {
+            applyUrlFilter(filtroFromUrl.trim());
         } else {
             renderPage();
         }
@@ -594,6 +597,38 @@ function clearActiveFilters() {
 
 function closeAllSubmenus() {
     document.querySelectorAll('.filter-submenu').forEach(sm => sm.classList.remove('open'));
+}
+
+function applyUrlFilter(filterValue) {
+    const list = document.getElementById('subcategory-filter-list');
+    if (!list) return;
+
+    const normTarget = normalizeText(filterValue);
+    const buttons = Array.from(list.querySelectorAll('.filter-btn'));
+
+    let targetBtn = buttons.find(b => {
+        const val = b.getAttribute('data-value') || '';
+        return normalizeText(val) === normTarget;
+    });
+
+    if (!targetBtn) {
+        targetBtn = buttons.find(b => {
+            const val = b.getAttribute('data-value') || '';
+            const nVal = normalizeText(val);
+            return nVal.includes(normTarget) || normTarget.includes(nVal);
+        });
+    }
+
+    if (targetBtn) {
+        const group = targetBtn.closest('.filter-group');
+        if (group) {
+            const submenu = group.querySelector('.filter-submenu');
+            if (submenu) submenu.classList.add('open');
+        }
+        targetBtn.click();
+    } else {
+        renderPage();
+    }
 }
 
 // --- Renderizado ---
